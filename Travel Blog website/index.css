@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&display=swap");
+
+.navbar {
+  background-color: blanchedalmond;
+}
+.carousel-item {
+  height: 550px;
+}
+.carousel-caption > h3 {
+  color: rgb(12, 76, 214);
+  font-size: 75px;
+  font-family: "DynaPuff", cursive;
+}
+.carousel-caption > button {
+  color: rgb(160, 34, 195);
+  font-family: "DynaPuff", cursive;
+
+  background-color: blanchedalmond;
+  padding: 10px;
+  border-radius: 10px 20px;
+}
+
+.card-body {
+  background-color: blanchedalmond;
+}
+body {
+  background-color: blue;
+}
+
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #a42424;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  @media screen and (max-width: 600px) {
+    input[type="text"], select {
+      width: 100%;
+    }
+  }
+  h1{
+    font-family: "DynaPuff", cursive;
+    text-align: center;
+  }
+  #btn{
+    background-color: #a42424;
+    color: burlywood;
+  }
+
+
+
+  /* Footer css */
+
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    color: #666;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    color: #000;
+  }
+  
